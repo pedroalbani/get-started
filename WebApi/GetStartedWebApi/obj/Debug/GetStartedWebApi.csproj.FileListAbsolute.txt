@@ -48,3 +48,11 @@ C:\Desenvolvimento\get-started\WebApi\GetStartedWebApi\bin\pt-br\System.Web.Http
 C:\Desenvolvimento\get-started\WebApi\GetStartedWebApi\obj\Debug\GetStartedWebApi.csprojResolveAssemblyReference.cache
 C:\Desenvolvimento\get-started\WebApi\GetStartedWebApi\obj\Debug\GetStartedWebApi.dll
 C:\Desenvolvimento\get-started\WebApi\GetStartedWebApi\obj\Debug\GetStartedWebApi.pdb
+C:\Desenvolvimento\get-started\WebApi\GetStartedWebApi\bin\EntityFramework.SqlServer.dll
+C:\Desenvolvimento\get-started\WebApi\GetStartedWebApi\bin\Microsoft.AspNet.Identity.Core.dll
+C:\Desenvolvimento\get-started\WebApi\GetStartedWebApi\bin\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Desenvolvimento\get-started\WebApi\GetStartedWebApi\bin\MySql.Data.dll
+C:\Desenvolvimento\get-started\WebApi\GetStartedWebApi\bin\MySql.Data.Entity.EF6.dll
+C:\Desenvolvimento\get-started\WebApi\GetStartedWebApi\bin\EntityFramework.SqlServer.xml
+C:\Desenvolvimento\get-started\WebApi\GetStartedWebApi\bin\Microsoft.AspNet.Identity.Core.xml
+C:\Desenvolvimento\get-started\WebApi\GetStartedWebApi\bin\Microsoft.AspNet.Identity.EntityFramework.xml
