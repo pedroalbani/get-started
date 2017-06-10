@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Business.Entities;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Net;
@@ -7,10 +8,10 @@ using System.Web.Http;
 
 namespace GetStartedWebApi.Controllers
 {
-    public class ProdutoController : ApiController
+     public class ProdutoController : ApiController
     {
         [HttpGet]
-        public IHttpActionResult Get()
+         public IHttpActionResult Teste()
         {
             try
             {
