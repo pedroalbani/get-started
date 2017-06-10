@@ -1,0 +1,16 @@
+C:\Desenvolvimento\get-started\WebApi\Business\obj\Debug\Business.csprojResolveAssemblyReference.cache
+C:\Desenvolvimento\get-started\WebApi\Business\bin\Debug\Business.dll.config
+C:\Desenvolvimento\get-started\WebApi\Business\bin\Debug\Business.dll
+C:\Desenvolvimento\get-started\WebApi\Business\bin\Debug\Business.pdb
+C:\Desenvolvimento\get-started\WebApi\Business\bin\Debug\EntityFramework.dll
+C:\Desenvolvimento\get-started\WebApi\Business\bin\Debug\EntityFramework.SqlServer.dll
+C:\Desenvolvimento\get-started\WebApi\Business\bin\Debug\MySql.Data.dll
+C:\Desenvolvimento\get-started\WebApi\Business\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Desenvolvimento\get-started\WebApi\Business\bin\Debug\EntityFramework.xml
+C:\Desenvolvimento\get-started\WebApi\Business\bin\Debug\EntityFramework.SqlServer.xml
+C:\Desenvolvimento\get-started\WebApi\Business\obj\Debug\Business.dll
+C:\Desenvolvimento\get-started\WebApi\Business\obj\Debug\Business.pdb
+C:\Desenvolvimento\get-started\WebApi\Business\bin\Debug\Microsoft.AspNet.Identity.Core.dll
+C:\Desenvolvimento\get-started\WebApi\Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.dll
+C:\Desenvolvimento\get-started\WebApi\Business\bin\Debug\Microsoft.AspNet.Identity.Core.xml
+C:\Desenvolvimento\get-started\WebApi\Business\bin\Debug\Microsoft.AspNet.Identity.EntityFramework.xml
