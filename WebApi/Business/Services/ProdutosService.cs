@@ -25,6 +25,19 @@ namespace Business.Services
 
         }
 
+        public HttpStatusCode Update(Produto prod)
+        {
+
+            using (Repositories.ProdutosRepository repository = new Repositories.ProdutosRepository())
+            {
+                repository.Update(prod);
+            }
+
+            return HttpStatusCode.OK;
+
+
+        }
+
         public List<Produto> GetAll()
         {
             List<Produto> prod = new List<Produto>();

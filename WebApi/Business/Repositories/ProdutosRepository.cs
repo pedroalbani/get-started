@@ -26,6 +26,18 @@ namespace Business.Repositories
                 t.Commit();
             }
         }
+        public void Update(Produto prod)
+        {
+
+            using (DbContextTransaction t = base.DbContext.Database.BeginTransaction())
+            {
+                DbContext.Entry(prod).State = EntityState.Modified;
+                DbContext.SaveChanges();
+
+                t.Commit();
+
+            }
+        }
 
         internal List<Produto> GetAll()
         {

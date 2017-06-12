@@ -10,22 +10,53 @@ namespace GetStartedWebApi.Controllers
 {
      public class ProdutoController : ApiController
     {
-        [HttpGet]
-         public IHttpActionResult Teste()
+        [HttpPost]
+        public IHttpActionResult Insert(Produto prod)
         {
             try
             {
                 Business.Services.ProdutosService service = new Business.Services.ProdutosService();
-                Produto produto = new Produto();
-                produto.Descricao = "Teste";
-                produto.Preco = 3;
-                service.Insert(produto);
-                return Ok();
+                
+                service.Insert(prod);
+                return Ok(prod);
             }
             catch (Exception ex)
             {
-                return InternalServerError();
+                return InternalServerError(ex);
             }
         }
+
+        [HttpGet]
+        public IHttpActionResult ListAll()
+        {
+            try
+            {
+                Business.Services.ProdutosService service = new Business.Services.ProdutosService();
+                return Ok(service.GetAll());
+            }
+            catch (Exception e)
+            {
+
+                return InternalServerError(e);
+            }
+        }
+
+        [HttpPut]
+        public IHttpActionResult Update(Produto prod)
+        {
+            try
+            {
+                Business.Services.ProdutosService service = new Business.Services.ProdutosService();
+               
+
+                service.Update(prod);
+                return Ok(prod);
+            }
+            catch (Exception ex)
+            {
+                return InternalServerError(ex);
+            }
+        }
+
     }
 }
